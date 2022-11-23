@@ -8,7 +8,7 @@ namespace AddressBookApp
         {
             ContactList contact=new ContactList();
             contact.WelcomeMessage();
-            ReEnteringApp:                         //abiity to add multiple address book hence repeating the complete process using label .
+            ReEnteringApp:                         //ability to add multiple address book hence repeating the complete process using label .
             Console.WriteLine("Select any one from below options \n" +
                 "Press 1 : to Create/Add a new contact\n" +
                 "Press 2 : to Edit/Modify any existing contact\n" +
