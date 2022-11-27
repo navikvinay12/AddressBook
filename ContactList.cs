@@ -40,6 +40,7 @@ namespace AddressBookApp
             personObj.phoneNo = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter your email id");
             personObj.emailId = Console.ReadLine();
+
             listPersonObj.Add(personObj);
             personMapping.Add(personObj.firstName, listPersonObj);
         }
@@ -101,7 +102,7 @@ namespace AddressBookApp
                 }
                 else
                 {
-                    Console.WriteLine("That personObj could not be found.Do you want to try again ");
+                    Console.WriteLine("That person name could not be found.Do you want to try again ");
                     if (Console.ReadKey().Key == ConsoleKey.Y)
                     {
                         goto updateDetails;
